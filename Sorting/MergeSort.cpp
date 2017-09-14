@@ -36,7 +36,7 @@ MergeSort(A){
 	for i <- 0 to mid:
 		left[i] <- A[i]
 	for j <- mid to n:
-		right[i-mid] <- A[i]
+		right[j-mid] <- A[j]
 
 	MergeSort(left)
 	MergeSort(right)
